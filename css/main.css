@@ -65,11 +65,20 @@ html {
 
 /**
  * =============
+
  @media (prefers-reduced-motion) {
     gear {
       animation: none;
     }
   }
+
+ @media (prefers-color-scheme: dark) {
+
+   .banner {
+     background-color: #111;
+   }
+
+ }
  * =============
  */
 
